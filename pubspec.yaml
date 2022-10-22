@@ -37,6 +37,8 @@ dependencies:
   hidden_drawer_menu: ^3.0.1
   percent_indicator: ^4.2.2
   http: ^0.13.5
+  # google_maps_flutter: ^2.2.1
+  # location: ^4.4.0
 
 dev_dependencies:
   flutter_test:

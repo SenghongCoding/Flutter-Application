@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 class ImagePage extends StatelessWidget {
   final imageURL = Image.network("");
+
+  ImagePage({super.key});
   @override
   Widget build(BuildContext context) {
     return SizedBox(

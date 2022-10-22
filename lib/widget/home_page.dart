@@ -10,9 +10,6 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-String Pic =
-    'https://imgs.search.brave.com/bCLLW1OkaqrjGqHh64YsfNgnBRJScB35PDnr_V_hr9c/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Y/U1pBRm0tNUpJN25y/aURMd1pxUlFRSGFF/NyZwaWQ9QXBp';
-
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
@@ -286,6 +283,7 @@ class _HomePageState extends State<HomePage> {
             ImagePage(),
             ImagePage(),
             ImagePage(),
+            ImagePage(),
           ],
         ),
       ),
@@ -406,3 +404,6 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
+
+String Pic =
+    'https://imgs.search.brave.com/bCLLW1OkaqrjGqHh64YsfNgnBRJScB35PDnr_V_hr9c/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Y/U1pBRm0tNUpJN25y/aURMd1pxUlFRSGFF/NyZwaWQ9QXBp';
